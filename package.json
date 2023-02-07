@@ -1,9 +1,9 @@
 {
-    "name": "debug-player",
-    "version": "0.1.0",
-    "description": "Replay screen recordings by frames",
+    "name": "trace-player",
+    "version": "0.2.0",
+    "description": "Compare two screen recording for performance analysis. Fine play screen recording.",
     "main": "src/index.js",
-    "author": "Lukas Kurucz <lukas.kurucz@shopee.com>",
+    "author": "Lukas Kurucz <lukas@kurucz.org>",
     "license": "MIT",
     "dependencies": {
       "@fluentui/react": "^7.115.3",

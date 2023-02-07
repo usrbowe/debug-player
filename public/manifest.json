@@ -1,6 +1,6 @@
 {
-    "short_name": "Debug player",
-    "name": "Compare two videos",
+    "short_name": "Trace player",
+    "name": "Compare two screen recordings",
     "icons": [
       {
         "src": "favicon.png",
