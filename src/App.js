@@ -9,6 +9,8 @@ import {
   Stack,
   Modal,
   IconButton,
+  MessageBar,
+  MessageBarType,
 } from "office-ui-fabric-react";
 import { mergeStyles } from "office-ui-fabric-react/lib/Styling";
 
@@ -299,6 +301,17 @@ function App() {
 
   return (
     <div className="App" style={{ backgroundColor: SharedColors.gray40 }}>
+      <MessageBar
+        messageBarType={MessageBarType.error}
+        isMultiline={false}
+        onDismiss={p.resetChoice}
+        dismissButtonAriaLabel="Close"
+      >
+        This project has been moved:
+        <Link href="https://trace-player.vercel.app" underline>
+          Open new project URL.
+        </Link>
+      </MessageBar>
       <header className="App-header">
         <Stack horizontal className={commandBarStyles}>
           <CommandBarButton
