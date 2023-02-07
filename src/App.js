@@ -305,7 +305,6 @@ function App() {
       <MessageBar
         messageBarType={MessageBarType.error}
         isMultiline={false}
-        onDismiss={p.resetChoice}
         dismissButtonAriaLabel="Close"
       >
         This project has been moved:
